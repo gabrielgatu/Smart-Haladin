@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/default_primary</item>
+        <item name="colorPrimaryDark">@color/default_primary_dark</item>
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:colorControlHighlight">@color/default_accent</item>
+        <item name="android:navigationBarColor">#222</item>
+
+        <item name="android:textColor">@color/text</item>
+
+        <!-- Main theme action bar-->
+        <item name="android:actionBarStyle">@style/MainActionBar</item>
+        <item name="android:actionBarTheme">@style/MainActionBarThemeOverlay</item>
+
+        <!-- Flag indicating whether this window's Action Bar content should overlay -->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- lag indicating whether this window requests that content changes be performed
+             as scene changes with transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- Flag indicating whether this Window's transition should overlap with
+             the exiting transition of the calling Activity. -->
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+
+        <!-- Flag indicating whether this window's Action Bar should overlay -->
+        <item name="android:windowActionBarOverlay">false</item>
+    </style>
+
+    <style name="MainActionBar" parent="android:Widget.Material.Light.ActionBar">
+        <item name="android:background">?android:colorPrimaryDark</item>
+        <item name="android:titleTextStyle">@style/MainThemeActionBarTitleTextStyle</item>
+    </style>
+
+
+    <style name="DetailActionBar" parent="android:Widget.Material.Light.ActionBar">
+        <item name="android:background">@null</item>
+    </style>
+
+
+    <style name="MainActionBarThemeOverlay" parent="">
+        <item name="android:colorControlNormal">?actionBarIconColor</item>
+        <item name="android:colorControlHighlight">@color/default_accent</item>
+    </style>
+
+    <declare-styleable name="BaseAppTheme">
+        <attr name="actionBarIconColor" format="color" />
+    </declare-styleable>
+
+    <style name="MainThemeActionBarTitleTextStyle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>

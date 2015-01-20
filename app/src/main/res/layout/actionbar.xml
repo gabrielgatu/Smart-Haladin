@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add a padding right to the actionbar because by default its content
+ is positioned to the right side by 20dp + other 30dp for the home button -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/default_primary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nearby"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

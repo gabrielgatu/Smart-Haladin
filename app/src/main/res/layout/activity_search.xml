@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gabrielgatu.haladin.SearchActivity"
+    android:background="@color/midnight_blue">
+
+    <EditText
+        android:id="@+id/search_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:background="@color/default_secondary"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_silver"
+        android:textSize="14sp"
+        android:hint="@string/search_dataflow_hint"/>
+
+    <GridView
+        android:id="@+id/list_flows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:columnWidth="180dp"
+        android:stretchMode="columnWidth"
+        android:divider="@color/clouds"
+        android:dividerHeight="0dp"/>
+
+</LinearLayout>

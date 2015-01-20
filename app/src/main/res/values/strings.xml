@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Haladin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_data_flow">Informations</string>
+    <string name="title_activity_new_flow">Initializing dataflow</string>
+    <string name="title_activity_search">Search for a dataflow</string>
+    <string name="search_dataflow_hint">Name of the dataflow or place</string>
+    <string name="internet_connection_error">Internet connection error</string>
+    <string name="internet_connection_error_message">You are not connected to a valid network!</string>
+    <string name="action_refresh_flow">Refresh flow</string>
+    <string name="action_delete_flow">Delete flow</string>
+
+</resources>

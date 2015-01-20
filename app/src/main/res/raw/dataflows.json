@@ -1,0 +1,202 @@
+[
+    {
+        "measureType": "%",
+        "measures": [],
+        "name": "humidity",
+        "place": "istituto sella",
+        "fps": 0.0033,
+        "apiName": "ds_H_19"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "air quality",
+        "place": "istituto sella",
+        "fps": 0.0033,
+        "apiName": "ds_Voc_20"
+    },
+    {
+        "measureType": "°C",
+        "measures": [],
+        "name": "temperature",
+        "place": "istituto sella",
+        "fps": 0.0033,
+        "apiName": "ds_T_21"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "formaldehyde",
+        "place": "istituto sella",
+        "fps": 0.0033,
+        "apiName": "ds_Frmhyd_22"
+    },
+    {
+        "measureType": "lux",
+        "measures": [],
+        "name": "lightning",
+        "place": "istituto sella",
+        "fps": 0.0033,
+        "apiName": "ds_Light_23"
+    },
+    {
+        "measureType": "%",
+        "measures": [],
+        "name": "humidity",
+        "place": "itis fauser",
+        "fps": 0.0033,
+        "apiName": "ds_H_27"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "air quality",
+        "place": "itis fauser",
+        "fps": 0.0033,
+        "apiName": "ds_Voc_28"
+    },
+    {
+        "measureType": "°C",
+        "measures": [],
+        "name": "temperature",
+        "place": "itis fauser",
+        "fps": 0.0033,
+        "apiName": "ds_T_26"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "formaldehyde",
+        "place": "itis fauser",
+        "fps": 0.0033,
+        "apiName": "ds_Frmhyd_24"
+    },
+    {
+        "measureType": "lux",
+        "measures": [],
+        "name": "lightning",
+        "place": "itis fauser",
+        "fps": 0.0033,
+        "apiName": "ds_Light_25"
+    },
+    {
+        "measureType": "%",
+        "measures": [],
+        "name": "humidity",
+        "place": "ipsia castigliano",
+        "fps": 0.0033,
+        "apiName": "ds_H_29"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "air quality",
+        "place": "ipsia castigliano",
+        "fps": 0.0033,
+        "apiName": "ds_Voc_32"
+    },
+    {
+        "measureType": "°C",
+        "measures": [],
+        "name": "temperature",
+        "place": "ipsia castigliano",
+        "fps": 0.0033,
+        "apiName": "ds_T_30"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "formaldehyde",
+        "place": "ipsia castigliano",
+        "fps": 0.0033,
+        "apiName": "ds_Frmhyd_33"
+    },
+    {
+        "measureType": "lux",
+        "measures": [],
+        "name": "lightning",
+        "place": "ipsia castigliano",
+        "fps": 0.0033,
+        "apiName": "ds_Light_31"
+    },
+    {
+        "measureType": "%",
+        "measures": [],
+        "name": "humidity",
+        "place": "itis majorana",
+        "fps": 0.0033,
+        "apiName": "ds_H_34"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "air quality",
+        "place": "itis majorana",
+        "fps": 0.0033,
+        "apiName": "ds_Voc_35"
+    },
+    {
+        "measureType": "°C",
+        "measures": [],
+        "name": "temperature",
+        "place": "itis majorana",
+        "fps": 0.0033,
+        "apiName": "ds_T_38"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "formaldehyde",
+        "place": "itis majorana",
+        "fps": 0.0033,
+        "apiName": "ds_Frmhyd_37"
+    },
+    {
+        "measureType": "lux",
+        "measures": [],
+        "name": "lightning",
+        "place": "itis majorana",
+        "fps": 0.0033,
+        "apiName": "ds_Light_36"
+    },
+    {
+        "measureType": "%",
+        "measures": [],
+        "name": "humidity",
+        "place": "itis pininfarina",
+        "fps": 0.0033,
+        "apiName": "ds_H_39"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "air quality",
+        "place": "itis pininfarina",
+        "fps": 0.0033,
+        "apiName": "ds_Voc_40"
+    },
+    {
+        "measureType": "lux",
+        "measures": [],
+        "name": "lightning",
+        "place": "itis pininfarina",
+        "fps": 0.0033,
+        "apiName": "ds_Light_41"
+    },
+    {
+        "measureType": "ppm",
+        "measures": [],
+        "name": "formaldehyde",
+        "place": "itis pininfarina",
+        "fps": 0.0033,
+        "apiName": "ds_Frmhyd_42"
+    },
+    {
+        "measureType": "°C",
+        "measures": [],
+        "name": "temperature",
+        "place": "itis pininfarina",
+        "fps": 0.0033,
+        "apiName": "ds_T_43"
+    }
+]
